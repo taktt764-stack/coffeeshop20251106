@@ -1,0 +1,125 @@
+/* 全体 */
+body {
+    font-family: "Yu Gothic", sans-serif;
+    margin: 0;
+    background: #fffaf0;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background: white;
+    padding: 14px 40px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+  }
+  .header-inner {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Hero */
+  .hero {
+    position: relative;
+  }
+  .hero img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+  }
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    transform: translateY(-50%);
+  }
+  
+  /* About */
+  .about {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .about-content {
+    display: flex;
+    gap: 40px;
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+  }
+  .about img {
+    width: 48%;
+    border-radius: 8px;
+  }
+  
+  /* Menu */
+  .menu {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .menu-grid {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+  .menu-card {
+    background: white;
+    padding: 16px 24px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Inside */
+  .inside {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .inside-grid {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  .inside img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Access */
+  .access {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .map-box {
+    background: #ddd;
+    height: 260px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+  }
+  
