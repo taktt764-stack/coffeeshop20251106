@@ -122,8 +122,18 @@ body {
     padding: 30px 0;
     margin-top: 60px;
   }
+.sns-icons img {
+  width: 30px;      /* 好きなサイズに変更 */
+  margin: 0 10px;
+  transition: opacity 0.3s;
+}
+
+.sns-icons img:hover {
+  opacity: 0.7;
+}
 
   
+
 
 
 
