@@ -108,7 +108,7 @@ body {
   }
   .map-box {
     background: #ddd;
-    height: 500px;
+    height: 300px;
     margin: 20px auto;
     max-width: 800px;
     border-radius: 8px;
@@ -124,3 +124,4 @@ body {
   }
 
   
+
